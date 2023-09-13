@@ -1,0 +1,158 @@
+/* ***************** */
+/* HEADER */
+/* ***************** */
+.header.grid {
+  grid-template-columns: 3fr 1fr;
+  gap: 0;
+}
+
+.heading-primary {
+  position: absolute;
+  top: 160px;
+  left: 85px;
+
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 5.2rem;
+  transform: rotate(-90deg);
+  letter-spacing: -1.5px;
+  word-spacing: -20px;
+  line-height: 0.7;
+}
+
+.heading-primary span {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.hero-img {
+  width: 80%;
+}
+
+.section-hero {
+  display: flex;
+  justify-content: center;
+
+  position: relative;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 55rem;
+  padding: 1.6rem;
+}
+
+.main-nav-list li:not(:last-child) {
+  margin-bottom: 1.8rem;
+  font-weight: 600;
+}
+
+.main-nav-list {
+  border-left: 1px solid #0f172a;
+  padding: 0.4rem 0;
+  padding-left: 3.2rem;
+}
+
+/* ***************** */
+/* SECTION: REFERENCES */
+/* ***************** */
+.references-box {
+  display: flex;
+  gap: 3.2rem;
+  justify-content: center;
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  word-spacing: -15px;
+}
+
+/* ***************** */
+/* SECTION: PROJECTS */
+/* ***************** */
+.project-img img {
+  width: 100%;
+  max-height: 54rem;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 2.4rem;
+}
+
+.projects-nav-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.projects-nav-list li {
+  font-size: 2.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.project-text-box {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+}
+
+.project-text {
+  font-family: "Montserrat";
+  line-height: 1.7;
+  margin-bottom: 0.4rem;
+}
+
+.icon-link {
+  align-self: flex-end;
+}
+
+/* ***************** */
+/* SECTION: BIO */
+/* ***************** */
+.skills-box {
+  align-self: end;
+  border-right: 1px solid currentColor;
+}
+
+.skills-list li {
+  font-family: "Montserrat";
+  margin-bottom: 0.8rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.section-bio.grid {
+  max-width: 85rem;
+  margin: 0 auto;
+  gap: 9.6rem;
+}
+
+.bio-box {
+  display: flex;
+
+  position: relative;
+}
+
+.bio-text {
+  position: absolute;
+  padding: 1.2rem;
+  background-color: rgba(246, 246, 248, 0.7);
+  height: 55rem;
+}
+
+.bio-text p {
+  max-width: 40ch;
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.bio-img-box {
+  margin-left: auto;
+}
+
+.bio-img {
+  width: 100%;
+  height: 55rem;
+}

@@ -1,0 +1,285 @@
+/*
+/// BREAKPOINTS ///
+(1rem = 1em = 16px)
+
+Default: 1920px
+Landscape Tablets: 
+1150 / 16 = 72em
+1060 / 16 = 66em
+
+Tablets: 
+940 / 16 = 59em
+860 / 16 = 54em
+800 / 16 = 50em
+740 / 16 = 46em
+
+Smaller Tablets: 
+695 / 16 = 43em
+645 / 16 = 40em
+
+Phones: 
+550 / 16 = 34em
+495 / 16 = 31em
+*/
+
+/* ***************** */
+/* LANDSCAPE TABLETS: < 1150px */
+/* ***************** */
+@media (max-width: 72em) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+
+  .heading-primary span {
+    font-size: 2.4rem;
+  }
+
+  .references-box {
+    font-size: 2.4rem;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 66em) {
+  .heading-primary {
+    top: 115px;
+    left: 40px;
+  }
+
+  .footer-content-box {
+    height: 30rem;
+    width: 45rem;
+  }
+}
+
+/* ***************** */
+/* TABLETS: < 940px */
+/* ***************** */
+@media (max-width: 59em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .project-img img {
+    max-height: 40rem;
+  }
+
+  /* GALLERY */
+  .image {
+    height: 40rem;
+  }
+}
+
+@media (max-width: 54em) {
+  .heading-primary {
+    font-size: 3.6rem;
+    word-spacing: -10px;
+    top: 115px;
+    left: 40px;
+  }
+
+  .heading-primary span {
+    font-size: 2rem;
+  }
+
+  .footer-content-box {
+    height: 25rem;
+    width: 40rem;
+  }
+
+  .contact {
+    font-style: normal;
+    font-size: 2rem;
+    margin-top: 1.2rem;
+    font-weight: 700;
+  }
+}
+
+@media (max-width: 50em) {
+  .heading-primary {
+    top: 85px;
+    left: 30px;
+  }
+
+  section {
+    margin-bottom: 6.4rem !important;
+  }
+}
+
+@media (max-width: 46em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* GALLERY */
+  .heading-primary-gal {
+    font-size: 3.6rem;
+    top: 135px;
+    left: -35px;
+  }
+
+  .grid--3-cols {
+    margin-bottom: 2.4rem;
+  }
+}
+
+/* ***************** */
+/* SMALLER TABLETS: < 695px */
+/* ***************** */
+@media (max-width: 43em) {
+  .heading-primary {
+    font-weight: 400;
+    top: 75px;
+  }
+
+  .heading-primary span {
+    letter-spacing: -0.5px;
+  }
+
+  .nav-cta:link,
+  .nav-cta:visited {
+    padding: 0.8rem 1.2rem;
+    line-height: 1.2;
+  }
+
+  .references-box {
+    font-size: 1.8rem;
+    word-spacing: -10px;
+    line-height: 1.2;
+  }
+
+  .heading-tertiary {
+    font-size: 1.2rem;
+  }
+
+  .projects-nav-list li {
+    font-size: 1.8rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .mrg-top {
+    margin-top: 1.2rem;
+  }
+
+  .skills-list li {
+    font-size: 1.6rem;
+  }
+
+  .footer-content-box {
+    transform: translate(50%, 40%);
+  }
+}
+
+@media (max-width: 40em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .heading-primary {
+    top: 60px;
+    left: 25px;
+  }
+
+  /* GALLERY */
+  .image {
+    height: 35rem;
+  }
+
+  .heading-primary-gal {
+    top: 120px;
+    left: -27px;
+  }
+}
+
+/* ***************** */
+/* SMALLER TABLETS: < 550px */
+/* ***************** */
+@media (max-width: 34em) {
+  .heading-primary {
+    font-size: 3rem;
+    line-height: 0.8;
+    word-spacing: -5px;
+    top: 45px;
+    left: 15px;
+  }
+
+  .project-img img {
+    max-height: 30rem;
+  }
+
+  .icon {
+    width: 75%;
+  }
+
+  .footer-content-box {
+    transform: translate(25%, 25%);
+  }
+
+  .footer .icon-link {
+    position: absolute;
+    right: 0;
+  }
+
+  /* GALLERY */
+  .meta-nav-box {
+    width: fit-content;
+  }
+
+  .image {
+    height: 30rem;
+  }
+}
+
+@media (max-width: 31em) {
+  .heading-primary {
+    font-size: 2.4rem;
+  }
+
+  .heading-primary span {
+    font-size: 1.6rem;
+  }
+
+  .skills-list li {
+    font-size: 1.4rem;
+  }
+
+  .bio-text p {
+    font-family: 500;
+  }
+
+  .bio-text p:last-of-type {
+    display: none;
+  }
+
+  .footer-content-box {
+    padding: 1.2rem;
+    height: 20rem;
+    width: 35rem;
+  }
+
+  .contact {
+    font-size: 1.8rem;
+    margin-top: 1.2rem;
+  }
+
+  .footer-link:not(:last-child) {
+    margin-bottom: 1.2rem;
+  }
+
+  .footer-nav-list li:not(:last-child) {
+    margin-bottom: 0.8rem;
+  }
+
+  .footer .meta-nav-list li {
+    font-size: 0.8rem !important;
+  }
+
+  /* GALLERY */
+  .image {
+    height: 25rem;
+  }
+
+  .grid--3-cols {
+    margin-bottom: 1.6rem;
+  }
+}
